@@ -1,8 +1,8 @@
 public class BmiService {
-    public long calculate (float x, float y) {
-        long z = (long) (y / ((x /100) *(x / 100)));
+    public long calculate(float stature, float body) {
+        long index = (long) (body / ((stature / 100) * (stature / 100)));
 
-        return z;
+        return index;
 
     }
 }
